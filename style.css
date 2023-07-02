@@ -1,0 +1,24 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
